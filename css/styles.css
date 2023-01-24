@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700,900,300,500|Space+Grotesk:400,700');
+
+.web-mvp{
+    align-items: flex-end;
+    background-color: var(--black);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    min-height: 8581px;
+    overflow-x: hidden;
+    width: 1440px;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    padding: 0%;
+    background-color: black;
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas: "header header"
+        "main main"
+        "main main"
+        "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* .imageHeader{
+    width: 100vw;
+    height: 80vh;
+} */
