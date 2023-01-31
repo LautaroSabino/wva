@@ -14,11 +14,11 @@
 
 .grilla {
     display: grid;
-    grid-template-areas: "header header"
-        "main main"
-        "main main"
-        "footer footer";
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header"
+        "main"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 2fr 1fr;
 }
 
@@ -50,6 +50,7 @@ body{
 .flexColumn{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .padding{
@@ -68,7 +69,7 @@ body{
     width: 99vw;
     height: 70vh;
     margin: 0% auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
