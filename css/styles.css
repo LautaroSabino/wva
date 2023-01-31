@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700,900,300,500|Space+Grotesk:400,700');
 
+/*------------------------GENERAL......................................*/
+
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
@@ -37,6 +39,9 @@ body{
     color: aliceblue;
 }
 
+/*------------------------SKILLS...........................................*/
+
+
 .flex{
     display: flex;
     justify-content: space-evenly;
@@ -47,16 +52,16 @@ body{
     flex-direction: column;
 }
 
-
 .padding{
     padding: 30px;
 }
 
-.title{
+/*------------------------HEADER............................................*/
+
+.logo{
+    width: 20vh;
+    height: 5vh;
     margin: 10px;
-    margin-left: 100px;
-    font-size: large;
-    font-weight: 900;
 }
 
 .imageHeader{
@@ -69,113 +74,91 @@ body{
     background-position: 10px;
 } 
 
+/*------------------------TITLE...........................................*/
+
+
+.title{
+    margin: 10px;
+    margin-left: 100px;
+    font-size: large;
+    font-weight: 900;
+}
+
+/*------------------------MAIN PART 1.....................................*/
+
 .div1{
-    width: 40%;
     height: 500px;
     margin: 20px;
-    padding: 39px;
+    padding: 20px;
     background-image: url(../public/assets/DA-back.png);
+    background-position: center center;
     background-size: cover;
 }
 
-.div2{
-    width: 40%;
-    height: 500px;
-    margin: 20px;
-    padding: 39px;
-    background-image: url(../public/assets/DF-back-2.png);
-    background-size: cover;
-}
-
-.div3{
-    width: 40%;
-    height: 500px;
-    margin: 20px;
-    padding: 39px;
-    background-image: url(../public/assets/kal-visuals-DqmXihYx5UE-unsplash.jpg);
-    background-size: cover;
-}
-
-.div4{
-    width: 40%;
-    height: 500px;
-    margin: 20px;
-    padding: 39px;
-    background-image: url(../public/assets/sgo.a_Stormtrooper_and_darth_vader_gopro_selfie_thick_volumetri_1a4d352b-6066-41e2-813e-da9d9cb3de2d.png);
-    background-size: cover;
-}
-
-.imgMain{
-    width: 60vh;
-    height: 50vh;
+.imgMain1{
+    width: 600px;
+    height: 400px;
     margin: 40px;
     ;
     margin: 0% auto;
 }
 
-.logo{
-    width: 20vh;
-    height: 5vh;
-    margin: 10px;
+.div2{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(../public/assets/DF-back-2.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.imgMain2{
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+    ;
+    margin: 0% auto;
+}
+
+.div3{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(../public/assets/kal-visuals-DqmXihYx5UE-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.imgMain3{
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+    ;
+    margin: 0% auto;
+}
+
+
+.div4{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(../public/assets/sgo.a_Stormtrooper_and_darth_vader_gopro_selfie_thick_volumetri_1a4d352b-6066-41e2-813e-da9d9cb3de2d.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.imgMain4{
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+    ;
+    margin: 0% auto;
+    padding: 0%;
 }
 
 
 
 
-.web-mvp{
-    align-items: flex-end;
-    
-    border: 1px none;
-    display: flex;
-    flex-direction: column;
-    min-height: 8581px;
-    overflow-x: hidden;
-    width: 1440px;
-}
-
-.hidden, .hidden *{
-    pointer-events: none;
-    visibility: hidden;
-}
-
-.overlap-group7{
-    height: 3027px;
-    margin-right: -369px;
-    margin-top: 1px;
-    position: relative;
-    width: 1809px;
-}
-
-.valing-text-middle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.you-are-an-artist{
-    height: 76px;
-    left: 1062px;
-    letter-spacing: 0;
-    line-height: 28px;
-    position: absolute;
-    top: 1918px;
-}
-
-.inter-black-gray-nurse-12px{
-    color: rgba(232, 232, 232, 1);
-    font-family: "inter";
-    font-size: 12px;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.inter-normal-rusty-red-18px{
-    color: rgba(220, 43, 70, 1);
-    font-family: "inter";
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-}
 
 
 
