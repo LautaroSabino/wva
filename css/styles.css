@@ -58,6 +58,19 @@ body{
     padding: 30px;
 }
 
+
+.material-symbols-outlined {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 48;
+
+}
+
+
 /*------------------------HEADER............................................*/
 
 .logo{
@@ -106,6 +119,13 @@ body{
     width: 600px;
     height: 420px;
     margin: 20px;
+}
+
+.titleDiv1{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .div2{
