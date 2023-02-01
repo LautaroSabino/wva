@@ -51,6 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
 }
 
 .padding{
@@ -69,7 +70,6 @@ body{
     width: 99vw;
     height: 70vh;
     margin: 0% auto;
-    margin-bottom: 10px;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
@@ -79,17 +79,23 @@ body{
 
 
 .title{
-    margin: 10px;
-    margin-left: 100px;
-    font-size: large;
+    margin-bottom: 10px;
+    font-size: xx-large;
     font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgTitle{
+    height: 160px;
 }
 
 /*------------------------MAIN PART 1.....................................*/
 
 .div1{
     height: 500px;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     background-image: url(../public/assets/DA-back.png);
     background-position: center center;
@@ -98,27 +104,27 @@ body{
 
 .imgMain1{
     width: 600px;
-    height: 400px;
-    margin: 40px;
-    ;
-    margin: 0% auto;
+    height: 420px;
+    margin: 20px;
 }
 
 .div2{
     height: 500px;
-    margin: 20px;
-    padding: 20px;
+    width: 700px;
+    margin: 10px;
     background-image: url(../public/assets/DF-back-2.png);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgMain2{
-    width: 600px;
-    height: 600px;
-    margin: 40px;
-    ;
-    margin: 0% auto;
+    padding: 40px;
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
 }
 
 .div3{
