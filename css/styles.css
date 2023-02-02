@@ -17,9 +17,10 @@
     grid-template-areas: "header"
         "main"
         "main"
+        "main"
         "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
 }
 
 header {
@@ -54,6 +55,16 @@ body{
     margin: 10px;
 }
 
+.flexColumnStart{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 0%;
+    
+}
+
 .padding{
     padding: 30px;
 }
@@ -81,12 +92,20 @@ body{
 
 .imageHeader{
     width: 99vw;
-    height: 70vh;
+    height: 90vh;
     margin: 0% auto;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
 } 
+
+.flexHeader{
+    height: 600px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
 
 /*------------------------TITLE...........................................*/
 
@@ -113,6 +132,7 @@ body{
     background-image: url(../public/assets/DA-back.png);
     background-position: center center;
     background-size: cover;
+    
 }
 
 .imgMain1{
@@ -121,11 +141,11 @@ body{
     margin: 20px;
 }
 
-.titleDiv1{
-    display: block;
+.titleDiv{
+    width: 700px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items:flex-start;
 }
 
 .div2{
@@ -135,9 +155,10 @@ body{
     background-image: url(../public/assets/DF-back-2.png);
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .imgMain2{
@@ -149,43 +170,52 @@ body{
 
 .div3{
     height: 500px;
+    width: 700px;
     margin: 20px;
     padding: 20px;
     background-image: url(../public/assets/kal-visuals-DqmXihYx5UE-unsplash.jpg);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .imgMain3{
     width: 600px;
     height: 600px;
     margin: 40px;
-    ;
     margin: 0% auto;
 }
 
 
 .div4{
     height: 500px;
+    width: 700px;
     margin: 20px;
     padding: 20px;
     background-image: url(../public/assets/sgo.a_Stormtrooper_and_darth_vader_gopro_selfie_thick_volumetri_1a4d352b-6066-41e2-813e-da9d9cb3de2d.png);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .imgMain4{
     width: 600px;
-    height: 600px;
-    margin: 40px;
-    ;
+    height: 500px;
     margin: 0% auto;
-    padding: 0%;
 }
 
+/*------------------------MAIN PART 2 contact.....................................*/
 
-
-
+.contact{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
