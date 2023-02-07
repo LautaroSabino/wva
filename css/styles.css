@@ -92,7 +92,7 @@ body{
 
 .imageHeader{
     width: 99vw;
-    height: 90vh;
+    height: 65vh;
     margin: 0% auto;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
@@ -100,10 +100,10 @@ body{
 } 
 
 .flexHeader{
-    height: 600px;
+    height: 440px;
     font-size: xx-large;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -208,7 +208,7 @@ body{
     margin: 0% auto;
 }
 
-/*------------------------MAIN PART 2 contact.....................................*/
+/*------------------------Contact...............................................*/
 
 .contact{
     height: 200px;
@@ -217,5 +217,49 @@ body{
     align-items: center;
 }
 
+/*------------------------MAIN PART 1.....................................*/
 
+
+.mainSection2-1{
+    height: 500px;
+    width: 1200px;
+    margin: 10px;
+    padding: 20px;
+    background-image: url(../public/assets/SFX-Back.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.imgMainPart2{
+    width: 400px;
+    height: 320px;
+    margin-left: 550px;
+    margin-top: 0%;
+
+    
+}
+
+.mainSection2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    margin: 10px;
+    padding: 20px;
+    background-image: url(../public/assets/SFX2-sticker.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.mainSection2-2 p{
+    font-size: 7rem;
+    color: aliceblue;
+    margin-right: 10rem;
+}
+
+.titleMain2-2{
+    font-size: 2rem;
+    color: rgb(177, 4, 4);
+}
 
