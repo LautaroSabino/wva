@@ -265,7 +265,27 @@ body{
 
 /*------------------------MAIN PART 3.....................................*/
 
-.mainSection3{
-    
+.grillaMain3 {
+    display: grid;
+    grid-template-areas: "section1"
+        "section2 section2"
+        "section3 section3"
+        "section3 section4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
 }
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+} 
+
+
 
