@@ -20,7 +20,7 @@
         "main"
         "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 2fr 2fr 1fr;
 }
 
 header {
@@ -40,7 +40,7 @@ body{
     color: aliceblue;
 }
 
-/*------------------------SKILLS...........................................*/
+/*------------------------SKILLS.....................................................*/
 
 
 .flex{
@@ -92,11 +92,11 @@ body{
 
 .imageHeader{
     width: 99vw;
-    height: 65vh;
-    margin: 0% auto;
+    height: 70vh;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
+    margin-bottom: 0%;
 } 
 
 .flexHeader{
@@ -235,8 +235,6 @@ body{
     height: 320px;
     margin-left: 550px;
     margin-top: 0%;
-
-    
 }
 
 .mainSection2-2{
@@ -259,33 +257,48 @@ body{
 }
 
 .titleMain2-2{
+    margin: 0% auto;
     font-size: 2rem;
     color: rgb(177, 4, 4);
+    margin-bottom: 100px;
+    
 }
 
 /*------------------------MAIN PART 3.....................................*/
 
-.grillaMain3 {
-    display: grid;
-    grid-template-areas: "section1"
-        "section2 section2"
-        "section3 section3"
-        "section3 section4";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr 2fr;
+.sectionMain3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0% 10px;
 }
 
-header {
-    grid-area: header;
+.article1{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    font-size: 3rem;
+    color: rgb(202, 1, 1);
 }
 
-main {
-    grid-area: main;
+.art1-2{
+    color: rgb(231, 74, 74);
 }
 
-footer {
-    grid-area: footer;
-} 
+.article2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
-
-
+.divMain3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: start;
+}
