@@ -277,9 +277,11 @@ body{
 .article1{
     margin: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 800px;
-    font-size: 3rem;
+    font-size: 5rem;
     color: rgb(202, 1, 1);
 }
 
@@ -297,8 +299,28 @@ body{
 
 .divMain3{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 20px;
-    text-align: start;
 }
+
+.artint1{
+    color: rgb(201, 67, 141);
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.artint2{
+    color: rgb(119, 34, 105);
+    display:flex;
+    justify-content: center;
+    width: 700px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
