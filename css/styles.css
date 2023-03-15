@@ -91,7 +91,8 @@ body{
 }
 
 .imageHeader{
-    width: 99vw;
+    margin: 0% auto;
+    width: 1200px;
     height: 70vh;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
@@ -111,6 +112,8 @@ body{
 
 
 .title{
+    margin: 0% auto;
+    width: 1200px;
     margin-bottom: 10px;
     font-size: xx-large;
     font-weight: 900;
@@ -211,6 +214,8 @@ body{
 /*------------------------Contact...............................................*/
 
 .contact{
+    margin: 0% auto;
+    width: 1200px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -221,8 +226,9 @@ body{
 
 
 .mainSection2-1{
-    height: 500px;
+    margin: 0% auto;
     width: 1200px;
+    height: 500px;
     margin: 10px;
     padding: 20px;
     background-image: url(../public/assets/SFX-Back.png);
