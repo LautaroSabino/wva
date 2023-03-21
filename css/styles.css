@@ -342,6 +342,7 @@ body{
     justify-content: center;
     text-align: start;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 th, thead{
@@ -364,4 +365,31 @@ tfoot {
     color: #fff;
 }
 
+/*------------------------MAIN PART 3.....................................*/
 
+.monazo{
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    background-image: url(../public/assets/monazo-portada-PNG.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.eldelmedio{
+    color: #c73535;
+    font-size: 4rem;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.gamepad{
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    background-image: url(../public/assets/Gamepad\ gif\ 500.gif);
+    background-position: center center;
+    background-size: cover;
+}
