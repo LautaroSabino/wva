@@ -69,6 +69,10 @@ body{
     padding: 30px;
 }
 
+.margin{
+    margin: 10px;
+}
+
 
 .material-symbols-outlined {
     margin-bottom: 5px;
@@ -273,11 +277,12 @@ body{
 /*------------------------MAIN PART 3.....................................*/
 
 .sectionMain3{
+    margin: 0% auto;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin: 0% 10px;
 }
 
 .article1{
@@ -288,10 +293,13 @@ body{
     align-items: center;
     width: 800px;
     font-size: 5rem;
+    margin-bottom: 0px;
     color: rgb(202, 1, 1);
 }
 
 .art1-2{
+    position:sticky;
+    margin-top: 0px;
     color: rgb(231, 74, 74);
 }
 
@@ -304,29 +312,56 @@ body{
 }
 
 .divMain3{
+    width: 1200px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 20px;
 }
 
 .artint1{
     color: rgb(201, 67, 141);
-    display: flex;
-    justify-content: center;
-    width: 700px;
-    font-size: 2em;
+    display: block;
+    margin: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .artint2{
     color: rgb(119, 34, 105);
-    display:flex;
-    justify-content: center;
-    width: 700px;
-    font-size: 2rem;
+    display: block;
+    margin: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
+}
+
+.table{
+    margin: 0% auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    font-size: 30px;
+}
+
+th, thead{
+    color: blueviolet;
+    padding: 25px;
+    width: 300px;
+}
+
+table,
+td {
+    border: 1px solid #c73535;
+    color: #c73535;
+    padding: 15px;
+    font-size: 20px;
+}
+
+thead,
+tfoot {
+    background-color: #000000;
+    color: #fff;
 }
 
 
