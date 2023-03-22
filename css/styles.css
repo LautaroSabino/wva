@@ -305,31 +305,34 @@ body{
 
 .article2{
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.divMain3{
-    width: 1200px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
+table,
+.tableForIndustry {
+    border: blueviolet solid 4px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .artint1{
+    border: blueviolet solid 4px;
     color: rgb(201, 67, 141);
-    display: block;
+    padding: 70px;
     margin: 10px;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .artint2{
+    border: blueviolet solid 4px;
     color: rgb(119, 34, 105);
-    display: block;
+    padding: 70px;
     margin: 10px;
     font-size: 20px;
     margin-bottom: 10px;
@@ -349,6 +352,7 @@ th, thead{
     color: blueviolet;
     padding: 25px;
     width: 300px;
+    text-align: center;
 }
 
 table,
@@ -365,7 +369,19 @@ tfoot {
     color: #fff;
 }
 
-/*------------------------MAIN PART 3.....................................*/
+/*------------------------MAIN PART 4.....................................*/
+
+.main4{
+    margin: 0% auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-top: 5px solid #c73535;
+    border-bottom: 5px solid #c73535;
+}
 
 .monazo{
     width: 600px;
@@ -379,17 +395,23 @@ tfoot {
 .eldelmedio{
     color: #c73535;
     font-size: 4rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 300px;
-    height: 300px;
+    height: 400px;
     margin: 10px;
 }
 
-.gamepad{
+.gameSticker{
     width: 600px;
     height: 500px;
     margin: 10px;
-    background-image: url(../public/assets/Gamepad\ gif\ 500.gif);
-    background-position: center center;
+    background-image: url(../public/assets/gaming-sticker-01.png);
+    background-position: 12px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
