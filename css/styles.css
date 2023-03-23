@@ -482,9 +482,9 @@ tfoot {
 
 .mainpic6-2-detail{
     margin-top: 40px;
-    width: 400px;
+    width: 550px;
     font-size: 3rem;
-    font-weight:400;
+    font-weight:300;
     color: #c73535;
     display: flex;
     flex-direction: column;
@@ -492,11 +492,61 @@ tfoot {
 
 .detail1{
     text-align: center;
+    margin-left: 30px;
 }
 
 .detail2{
     text-align: right;
 }
 
+/*------------------------MAIN PART 7--------------------------------------------*/
+
+
+
+/*------------------------FOOTER----------------------------------------------------*/
+
+.footer{
+    margin: 0% auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid blueviolet;
+}
+
+.foot1{
+    margin: 40px;
+    font-size: 3rem;
+}
+
+.foot2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+}
+
+.foot2-1{
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+}
+
+.foot2-1-1{
+    margin: 40px;
+    font-size: 20px;
+    color: #727272;
+}
+
+.foot2-1-2{
+    margin: 40px;
+    font-size: 20px;
+
+}
+
+.foot2-1-3{
+    font-size: 40px;
+
+}
 
 
