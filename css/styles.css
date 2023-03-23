@@ -420,7 +420,7 @@ tfoot {
 .main5{
     margin: 0% auto;
     width: 1200px;
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -431,15 +431,72 @@ tfoot {
     border-bottom: 5px solid blueviolet;
 }
 
-.divMain5{
+.main5-2{
+    margin: 0% auto;
+    width: 1200px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    color: blueviolet;
+    margin-bottom: 30px;
+    border-bottom: 5px solid blueviolet;
+}
+
+.divMain5{
+    display: flex;
     width: 1200px;
+    justify-content: space-around;
+    margin: 30px;
     margin-bottom: 30px;
 }
 
 .picMain5{
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 300px;
 }
+
+/*------------------------MAIN PART 6--------------------------------------------*/
+
+.main6{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainPic6-1{
+    width: 800px;
+    height: 600px;
+    background-image: url(../public/assets/Phone-Mockup.jpg);
+    background-size: cover;
+}
+
+.mainPic6-2{
+    width: 800px;
+    height: 600px;
+    background-image: url(../public/assets/Hands-Holding-Landscape-Smartphone-Free-Mockup.jpg);
+    background-size: cover;
+}
+
+.mainpic6-2-detail{
+    margin-top: 40px;
+    width: 400px;
+    font-size: 3rem;
+    font-weight:400;
+    color: #c73535;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail1{
+    text-align: center;
+}
+
+.detail2{
+    text-align: right;
+}
+
+
 
