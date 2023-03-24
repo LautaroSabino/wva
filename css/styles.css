@@ -9,30 +9,9 @@
     list-style: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    
-} 
-
-.grilla {
-    display: grid;
-    grid-template-areas: "header"
-        "main"
-        "main"
-        "main"
-        "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr 2fr 2fr 1fr;
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
+    flex-wrap: wrap;
+    max-width: 1220px;
+    margin: 0% auto;
 } 
 
 body{
@@ -82,7 +61,6 @@ body{
     'wght' 600,
     'GRAD' 0,
     'opsz' 48;
-
 }
 
 
@@ -112,12 +90,13 @@ body{
     align-items: flex-end;
 }
 
-/*------------------------TITLE...........................................*/
+/*------------------TITLE..................*/
 
 
 .title{
     margin: 0% auto;
     width: 1200px;
+    height: 200px;
     margin-bottom: 10px;
     font-size: xx-large;
     font-weight: 900;
@@ -130,7 +109,11 @@ body{
     height: 160px;
 }
 
-/*------------------------MAIN PART 1.....................................*/
+/*------------------------------MAIN ---------------------------------------------*/
+
+/*---------------PARTE 1 -------------------*/
+
+
 
 .div1{
     height: 500px;
@@ -215,18 +198,8 @@ body{
     margin: 0% auto;
 }
 
-/*------------------------Contact...............................................*/
 
-.contact{
-    margin: 0% auto;
-    width: 1200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*------------------------MAIN PART 2.....................................*/
+/*---------------PARTE 2 -------------------*/
 
 
 .mainSection2-1{
@@ -274,7 +247,7 @@ body{
     
 }
 
-/*------------------------MAIN PART 3.....................................*/
+/*---------------PARTE 3 -------------------*/
 
 .sectionMain3{
     margin: 0% auto;
@@ -369,7 +342,7 @@ tfoot {
     color: #fff;
 }
 
-/*------------------------MAIN PART 4.....................................*/
+/*---------------PARTE 4 -------------------*/
 
 .main4{
     margin: 0% auto;
@@ -415,7 +388,6 @@ tfoot {
     align-items: center;
 }
 
-/*------------------------MAIN PART 5--------------------------------------------*/
 
 .main5{
     margin: 0% auto;
@@ -457,8 +429,6 @@ tfoot {
     height: 300px;
 }
 
-/*------------------------MAIN PART 6--------------------------------------------*/
-
 .main6{
     width: 1200px;
     display: flex;
@@ -499,11 +469,8 @@ tfoot {
     text-align: right;
 }
 
-/*------------------------MAIN PART 7--------------------------------------------*/
 
-
-
-/*------------------------FOOTER----------------------------------------------------*/
+/*---------------------------------FOOTER-------------------------------------------*/
 
 .footer{
     margin: 0% auto;
