@@ -374,19 +374,18 @@ tfoot {
 
 .main4 {
     margin: 0% auto;
-    width: 1200px;
+    margin-bottom: 60px;
+    width: 750px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: start;
-    font-size: 30px;
-    margin-bottom: 30px;
     border-top: 5px solid #c73535;
     border-bottom: 5px solid #c73535;
 }
 
 .monazo {
-    width: 600px;
-    height: 500px;
+    width: 400px;
+    height: 450px;
     margin: 10px;
     background-image: url(../public/assets/monazo-portada-PNG.png);
     background-position: center center;
@@ -394,33 +393,33 @@ tfoot {
 }
 
 .eldelmedio {
-    color: #c73535;
+    color: #000000;
     font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 400px;
-    margin: 10px;
+    width: 250px;
+    margin-top: 10px;
+
+}
+
+.pMedio{
+    text-shadow:-1px -1px 0 white;
 }
 
 .gameSticker {
-    width: 600px;
-    height: 500px;
-    margin: 10px;
-    background-image: url(../public/assets/gaming-sticker-01.png);
+    width: 250px;
+    height: 250px;
+    background-image: url(../public/assets/Gamepad\ gif\ 500.gif);
     background-position: 12px;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-position: center;
 }
-
 
 .main5 {
     margin: 0% auto;
-    width: 1200px;
-    height: 450px;
+    width: 750px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -433,7 +432,7 @@ tfoot {
 
 .main5-2 {
     margin: 0% auto;
-    width: 1200px;
+    width: 750px;
     height: 450px;
     display: flex;
     justify-content: space-around;
@@ -446,9 +445,8 @@ tfoot {
 
 .divMain5 {
     display: flex;
-    width: 1200px;
+    width: 750px;
     justify-content: space-around;
-    margin: 30px;
     margin-bottom: 30px;
 }
 
@@ -458,14 +456,14 @@ tfoot {
 }
 
 .main6 {
-    width: 1200px;
+    width: 760px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .mainPic6-1 {
-    width: 800px;
+    width: 760px;
     height: 600px;
     background-image: url(../public/assets/Phone-Mockup.jpg);
     background-size: cover;
@@ -495,6 +493,15 @@ tfoot {
 
 .detail2 {
     text-align: right;
+}
+
+.main7Gif{
+    height: 500px;
+    width: 700px;
+    margin: 20px;
+    background-image: url(../public/assets/Arcade\ gif.gif);
+    background-position: center center;
+    background-size: cover;
 }
 
 
