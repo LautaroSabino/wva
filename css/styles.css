@@ -12,9 +12,9 @@
     flex-wrap: wrap;
     max-width: 768px;
     margin: 0% auto;
-} 
+}
 
-body{
+body {
     background-color: rgba(0, 0, 0, 1);
     color: aliceblue;
 }
@@ -22,33 +22,33 @@ body{
 /*------------------------SKILLS.....................................................*/
 
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-evenly;
 }
 
-.flexColumn{
+.flexColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
 }
 
-.flexColumnStart{
+.flexColumnStart {
     width: 700px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 10px;
     margin-left: 0%;
-    
+
 }
 
-.padding{
+.padding {
     padding: 30px;
 }
 
-.margin{
+.margin {
     margin: 10px;
 }
 
@@ -57,31 +57,31 @@ body{
     margin-bottom: 5px;
     padding: 5px;
     font-variation-settings:
-    'FILL' 1,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 48;
+        'FILL'1,
+        'wght'600,
+        'GRAD'0,
+        'opsz'48;
 }
 
 
 /*------------------------HEADER............................................*/
 
-.logo{
+.logo {
     width: 20vh;
     height: 5vh;
     margin: 10px;
 }
 
-.imageHeader{
+.imageHeader {
     margin: 0% auto;
     max-width: 768px;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
     margin-bottom: 0%;
-} 
+}
 
-.flexHeader{
+.flexHeader {
     height: 340px;
     font-size: xx-large;
     display: flex;
@@ -92,7 +92,7 @@ body{
 /*------------------TITLE..................*/
 
 
-.title{
+.title {
     margin: 0% auto;
     padding: 20px;
     width: 768px;
@@ -103,7 +103,7 @@ body{
     align-items: center;
 }
 
-.imgTitle{
+.imgTitle {
     height: 180px;
     width: 310px;
     padding: 30px;
@@ -113,7 +113,7 @@ body{
 
 /*---------------PARTE 1 -------------------*/
 
-.div1{
+.div1 {
     height: 500px;
     margin: 10px;
     padding: 20px;
@@ -122,20 +122,20 @@ body{
     background-size: cover;
 }
 
-.imgMain1{
+.imgMain1 {
     width: 600px;
     height: 420px;
     margin: 20px;
 }
 
-.titleDiv{
+.titleDiv {
     width: 320px;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
-.div2{
+.div2 {
     height: 500px;
     width: 700px;
     margin: 10px;
@@ -147,12 +147,12 @@ body{
     align-items: flex-end;
 }
 
-.imgMain2{
+.imgMain2 {
     width: 500px;
     height: 300px;
 }
 
-.div3{
+.div3 {
     height: 500px;
     width: 700px;
     margin: 20px;
@@ -165,7 +165,7 @@ body{
     align-items: flex-end;
 }
 
-.imgMain3{
+.imgMain3 {
     width: 600px;
     height: 500px;
     margin: 40px;
@@ -173,7 +173,7 @@ body{
 }
 
 
-.div4{
+.div4 {
     height: 500px;
     width: 700px;
     margin: 20px;
@@ -185,7 +185,7 @@ body{
     align-items: flex-end;
 }
 
-.imgMain4{
+.imgMain4 {
     width: 600px;
     height: 300px;
     margin: 0% auto;
@@ -195,83 +195,117 @@ body{
 /*---------------PARTE 2 -------------------*/
 
 
-.mainSection2-1{
+.mainSection2-1 {
     margin: 0% auto;
-    width: 1200px;
+    width: 700px;
     height: 500px;
-    margin: 10px;
-    padding: 20px;
     background-image: url(../public/assets/SFX-Back.png);
     background-position: center center;
     background-size: cover;
 }
 
-.imgMainPart2{
+.imgMainPart2 {
     width: 400px;
-    height: 320px;
     margin-left: 550px;
-    margin-top: 0%;
 }
 
-.mainSection2-2{
+.mainSection2-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 1200px;
+    height: 300px;
+    width: 700px;
     margin: 10px;
-    padding: 20px;
+    padding-right: 45px;
     background-image: url(../public/assets/SFX2-sticker.png);
     background-position: center center;
     background-size: cover;
 }
 
-.mainSection2-2 p{
-    font-size: 7rem;
-    color: aliceblue;
-    margin-right: 10rem;
+.mainSection2-2 p {
+    font-size: 87px;
+    color: rgb(210, 217, 224);
 }
 
-.titleMain2-2{
+.titleMain2-2 {
     margin: 0% auto;
     font-size: 2rem;
     color: rgb(177, 4, 4);
     margin-bottom: 100px;
-    
+
 }
 
 /*---------------PARTE 3 -------------------*/
 
-.sectionMain3{
+.sectionMain3 {
     margin: 0% auto;
-    width: 1200px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
 }
 
-.article1{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
+.article1 {
+    width: 500px;
+    height: 300px;
     font-size: 5rem;
-    margin-bottom: 0px;
     color: rgb(202, 1, 1);
+    margin: 0% auto;
+}
+
+h3 {
+    position: absolute;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
 }
 
 .art1-2{
-    position:sticky;
-    margin-top: 0px;
-    color: rgb(231, 74, 74);
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        1px 1px 0 white,
+        -1px 1px 0 white;
 }
 
-.article2{
+.art1-2-2{
+    color: rgb(228, 90, 90);
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100%{
+        clip-path: polygon(
+            0% 47%,
+            10% 48%,
+            33% 54%,
+            54% 68%,
+            76% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+        );
+    }
+
+    65%{
+        clip-path: polygon(
+            8% 69%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 56%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+        );
+    }
+}
+
+.article2 {
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -286,7 +320,7 @@ table,
     margin-bottom: 40px;
 }
 
-.artint1{
+.artint1 {
     border: blueviolet solid 4px;
     color: rgb(201, 67, 141);
     padding: 70px;
@@ -295,7 +329,7 @@ table,
     margin-bottom: 10px;
 }
 
-.artint2{
+.artint2 {
     border: blueviolet solid 4px;
     color: rgb(119, 34, 105);
     padding: 70px;
@@ -304,7 +338,7 @@ table,
     margin-bottom: 10px;
 }
 
-.table{
+.table {
     margin: 0% auto;
     width: 1200px;
     display: flex;
@@ -314,7 +348,8 @@ table,
     margin-bottom: 30px;
 }
 
-th, thead{
+th,
+thead {
     color: blueviolet;
     padding: 25px;
     width: 300px;
@@ -337,7 +372,7 @@ tfoot {
 
 /*---------------PARTE 4 -------------------*/
 
-.main4{
+.main4 {
     margin: 0% auto;
     width: 1200px;
     display: flex;
@@ -349,7 +384,7 @@ tfoot {
     border-bottom: 5px solid #c73535;
 }
 
-.monazo{
+.monazo {
     width: 600px;
     height: 500px;
     margin: 10px;
@@ -358,7 +393,7 @@ tfoot {
     background-size: cover;
 }
 
-.eldelmedio{
+.eldelmedio {
     color: #c73535;
     font-size: 4rem;
     display: flex;
@@ -369,7 +404,7 @@ tfoot {
     margin: 10px;
 }
 
-.gameSticker{
+.gameSticker {
     width: 600px;
     height: 500px;
     margin: 10px;
@@ -382,7 +417,7 @@ tfoot {
 }
 
 
-.main5{
+.main5 {
     margin: 0% auto;
     width: 1200px;
     height: 450px;
@@ -396,7 +431,7 @@ tfoot {
     border-bottom: 5px solid blueviolet;
 }
 
-.main5-2{
+.main5-2 {
     margin: 0% auto;
     width: 1200px;
     height: 450px;
@@ -409,7 +444,7 @@ tfoot {
     border-bottom: 5px solid blueviolet;
 }
 
-.divMain5{
+.divMain5 {
     display: flex;
     width: 1200px;
     justify-content: space-around;
@@ -417,55 +452,55 @@ tfoot {
     margin-bottom: 30px;
 }
 
-.picMain5{
+.picMain5 {
     width: 700px;
     height: 300px;
 }
 
-.main6{
+.main6 {
     width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.mainPic6-1{
+.mainPic6-1 {
     width: 800px;
     height: 600px;
     background-image: url(../public/assets/Phone-Mockup.jpg);
     background-size: cover;
 }
 
-.mainPic6-2{
+.mainPic6-2 {
     width: 800px;
     height: 600px;
     background-image: url(../public/assets/Hands-Holding-Landscape-Smartphone-Free-Mockup.jpg);
     background-size: cover;
 }
 
-.mainpic6-2-detail{
+.mainpic6-2-detail {
     margin-top: 40px;
     width: 550px;
     font-size: 3rem;
-    font-weight:300;
+    font-weight: 300;
     color: #c73535;
     display: flex;
     flex-direction: column;
 }
 
-.detail1{
+.detail1 {
     text-align: center;
     margin-left: 30px;
 }
 
-.detail2{
+.detail2 {
     text-align: right;
 }
 
 
 /*---------------------------------FOOTER-------------------------------------------*/
 
-.footer{
+.footer {
     margin: 0% auto;
     width: 1200px;
     display: flex;
@@ -474,39 +509,37 @@ tfoot {
     border-top: 3px solid blueviolet;
 }
 
-.foot1{
+.foot1 {
     margin: 40px;
     font-size: 3rem;
 }
 
-.foot2{
+.foot2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 700px;
 }
 
-.foot2-1{
+.foot2-1 {
     display: flex;
     flex-direction: column;
-    align-items:normal;
+    align-items: normal;
 }
 
-.foot2-1-1{
+.foot2-1-1 {
     margin: 40px;
     font-size: 20px;
     color: #727272;
 }
 
-.foot2-1-2{
+.foot2-1-2 {
     margin: 40px;
     font-size: 20px;
 
 }
 
-.foot2-1-3{
+.foot2-1-3 {
     font-size: 40px;
 
 }
-
-
