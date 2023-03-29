@@ -108,6 +108,7 @@ body {
 
 .section1 {
     margin: 0% auto;
+    max-width: 700px;
 }
 
 .grillaMain1 {
@@ -139,6 +140,14 @@ body {
     grid-area: fila4;
 }
 
+.titleDiv {
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
 .div1 {
     margin: 10px;
     padding: 20px;
@@ -153,26 +162,21 @@ body {
     margin: 20px;
 }
 
-.titleDiv {
-    width: 320px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .div2 {
     margin: 10px;
+    height: 500px;
     background-image: url(../public/assets/DF-back-2.png);
     background-position: center center;
     background-size: cover;
     background-position: 20px;
-    display: flex;
+    display: flex;;
     align-items: flex-end;
 }
 
 .imgMain2 {
     width: 500px;
     height: 300px;
+    margin-top: 200px
 }
 
 .div3 {
@@ -356,7 +360,7 @@ table,
 
 .table {
     margin: 0% auto;
-    width: 1200px;
+    width: 700px;
     display: flex;
     justify-content: center;
     text-align: start;
@@ -387,6 +391,13 @@ tfoot {
 }
 
 /*---------------PARTE 4 -------------------*/
+
+.parte4{
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .main4 {
     margin: 0% auto;
@@ -483,6 +494,7 @@ tfoot {
     height: 600px;
     background-image: url(../public/assets/Phone-Mockup.jpg);
     background-size: cover;
+    background-position: center center;
 }
 
 .mainPic6-2 {
@@ -490,6 +502,7 @@ tfoot {
     height: 600px;
     background-image: url(../public/assets/Hands-Holding-Landscape-Smartphone-Free-Mockup.jpg);
     background-size: cover;
+    background-position: center center;
 }
 
 .mainpic6-2-detail {
@@ -573,6 +586,15 @@ tfoot {
 
 @media screen and (min-width:1024px) {
 
+    body{
+        max-width: 100%;
+    }
+
+    .section1 {
+        margin: 0% auto;
+        max-width: 1200px;
+    }
+
     .title {
         width: 1200px;
         height: 200px;
@@ -584,8 +606,8 @@ tfoot {
             "fila3 fila4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 4fr ;
-        column-gap: 15px;
-        row-gap: 15px;
+        column-gap: 30px;
+        row-gap: 50px;
         margin: 0px auto;    
     }
     
@@ -622,14 +644,13 @@ tfoot {
     }
 
     .imgMain2 {
-        width: 400px;
+        width: 500px;
         height: 300px;
     }
 
     .div3 {
         height: 500px;
         width: 500px;
-        margin-left: 60px;
     }
 
     .imgMain3 {
@@ -648,5 +669,109 @@ tfoot {
         height: 300px;
 
     }
+
+    .mainSection2-1 {
+        margin-top: 40px;
+        width: 1200px;
+        height: 500px;
+    }
+    
+    .imgMainPart2 {
+        width: 400px;
+        margin-left: 850px;
+    }
+
+    .main4 {
+        width: 1200px;
+    }
+    
+    .monazo {
+        width: 800px;
+        height: 650px;
+        margin: 10px;
+    }
+    
+    .eldelmedio {
+        font-size: 4rem;
+        width: 350px;
+        margin-top: 20px;
+    
+    }
+    
+    .gameSticker {
+        width: 350px;
+        height: 350px;
+        margin-right: 40px;
+    }
+    
+    .parte4{
+        margin: 0% auto;
+        max-width: 1200px;
+    }
+
+    .main5 {
+        width: 1200px;
+        height: 400px;
+    }
+    
+    .main5-2 {
+        width: 1200px;
+        height: 450px;
+    }
+    
+    .divMain5 {
+        width: 1200px;
+    }
+    
+    .picMain5 {
+        width: 800px;
+        height: 330px;
+    }
+    
+    .main6 {
+        width: 1200px;
+    }
+    
+    .mainPic6-1 {
+        margin: 0% auto;
+        width: 1200px;
+        height: 600px;
+    }
+    
+    .mainPic6-2 {
+        margin: 0% auto;
+        width: 1200px;
+        height: 600px;
+    }
+    
+    .mainpic6-2-detail {
+        width: 1000px;
+    }
+
+    .main7Gif {
+        width: 1200px;
+        height: 700px;
+    }
+    
+    .footer {
+        margin: 0% auto;
+        width: 1200px;
+    }
+    
+    .foot1 {
+        margin: 40px;
+        font-size: 2rem;
+    }
+    
+    .foot2 {
+        width: 1200px;
+        justify-content: center;
+    }
+
+    .foot2-1 {
+        align-items: center;
+    }
+    
+    
 
 }
