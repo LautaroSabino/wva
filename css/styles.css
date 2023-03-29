@@ -9,12 +9,17 @@
     list-style: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto 0%;
 }
 
 body {
     background-color: rgba(0, 0, 0, 1);
     color: aliceblue;
+}
+
+.contenedorPrincipal {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /*------------------------SKILLS.....................................................*/
@@ -31,21 +36,6 @@ body {
     align-items: center;
     margin: 20px;
 }
-
-.flexColumnStart {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 10px;
-
-
-}
-
-.padding {
-    padding: 30px;
-}
-
 
 .material-symbols-outlined {
     margin-bottom: 5px;
@@ -67,11 +57,10 @@ body {
 }
 
 .imageHeader {
-    width: 98vw;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
-    margin-bottom: 0%;
+    width: 100%;
 }
 
 .flexHeader {
@@ -86,10 +75,9 @@ body {
 
 
 .title {
+    margin: 0 auto;
+    width: 90%;
     margin: 0% auto;
-    padding: 20px;
-    width: 768px;
-    height: 200px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
@@ -100,16 +88,13 @@ body {
     height: 180px;
     width: 310px;
     padding: 30px;
+    margin: 20px;
 }
 
 /*------------------------------MAIN ---------------------------------------------*/
 
 /*---------------PARTE 1 -------------------*/
 
-.section1 {
-    margin: 0% auto;
-    max-width: 700px;
-}
 
 .grillaMain1 {
     display: grid;
@@ -117,11 +102,10 @@ body {
         "fila2"
         "fila3"
         "fila4";
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr ;
+    grid-template-columns: 100%;
     column-gap: 15px;
     row-gap: 15px;
-
+    margin: 0 auto;
 }
 
 .divG1 {
@@ -141,76 +125,75 @@ body {
 }
 
 .titleDiv {
-    width: 320px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin: 5px;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin: 15px;
 }
 
 .div1 {
-    margin: 10px;
-    padding: 20px;
+    width: 60%;
+    height: 400px;
     background-image: url(../public/assets/DA-back.png);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgMain1 {
-    width: 600px;
-    height: 420px;
-    margin: 20px;
+    width: 40vw;
+    height: 40vh;
 }
 
 .div2 {
-    margin: 10px;
-    height: 500px;
+    width: 60%;
+    height: 400px;
     background-image: url(../public/assets/DF-back-2.png);
     background-position: center center;
     background-size: cover;
-    background-position: 20px;
-    display: flex;;
-    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgMain2 {
-    width: 500px;
-    height: 300px;
-    margin-top: 200px
+    width: 40vw;
+    height: 40vh;
 }
 
 .div3 {
-    margin: 20px;
-    padding: 20px;
+    width: 60%;
+    height: 400px;
     background-image: url(../public/assets/kal-visuals-DqmXihYx5UE-unsplash.jpg);
     background-position: center center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .imgMain3 {
-    width: 600px;
-    height: 500px;
-    margin: 40px;
-    margin: 0% auto;
+    width: 40vw;
+    height: 40vh;
 }
 
 .div4 {
-    margin: 20px;
+    width: 60%;
+    height: 400px;
     background-image: url(../public/assets/sgo.a_Stormtrooper_and_darth_vader_gopro_selfie_thick_volumetri_1a4d352b-6066-41e2-813e-da9d9cb3de2d.png);
     background-position: center center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .imgMain4 {
-    width: 600px;
-    height: 300px;
-    margin: 0% auto;
+    width: 40vw;
+    height: 40vh;
 }
 
 
@@ -218,17 +201,18 @@ body {
 
 
 .mainSection2-1 {
-    margin: 0% auto;
-    width: 700px;
+    margin: 0 auto;
+    width: 80%;
     height: 500px;
     background-image: url(../public/assets/SFX-Back.png);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    justify-content: end;
 }
 
 .imgMainPart2 {
-    width: 400px;
-    margin-left: 550px;
+    width: 60%;
 }
 
 .mainSection2-2 {
@@ -236,7 +220,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 700px;
+    width: 70%;
     margin: 10px;
     padding-right: 45px;
     background-image: url(../public/assets/SFX2-sticker.png);
@@ -245,12 +229,12 @@ body {
 }
 
 .mainSection2-2 p {
-    font-size: 87px;
+    font-size: 77px;
     color: rgb(210, 217, 224);
 }
 
 .titleMain2-2 {
-    margin: 0% auto;
+    margin: 0 auto;
     font-size: 2rem;
     color: rgb(177, 4, 4);
     margin-bottom: 100px;
@@ -260,8 +244,8 @@ body {
 /*---------------PARTE 3 -------------------*/
 
 .sectionMain3 {
-    margin: 0% auto;
-    width: 700px;
+    margin: 0 auto;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -359,8 +343,8 @@ table,
 }
 
 .table {
-    margin: 0% auto;
-    width: 700px;
+    margin: 0 auto;
+    width: 70%;
     display: flex;
     justify-content: center;
     text-align: start;
@@ -392,17 +376,17 @@ tfoot {
 
 /*---------------PARTE 4 -------------------*/
 
-.parte4{
-    margin: 0% auto;
+.parte4 {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .main4 {
-    margin: 0% auto;
+    margin: 0 auto;
     margin-bottom: 60px;
-    width: 750px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     text-align: start;
@@ -411,7 +395,7 @@ tfoot {
 }
 
 .monazo {
-    width: 400px;
+    width: 40%;
     height: 450px;
     margin: 10px;
     background-image: url(../public/assets/monazo-portada-PNG.png);
@@ -444,8 +428,8 @@ tfoot {
 }
 
 .main5 {
-    margin: 0% auto;
-    width: 750px;
+    margin: 0 auto;
+    width: 70%;
     height: 400px;
     display: flex;
     justify-content: space-around;
@@ -458,7 +442,7 @@ tfoot {
 }
 
 .main5-2 {
-    margin: 0% auto;
+    margin: 0 auto;
     width: 750px;
     height: 450px;
     display: flex;
@@ -474,7 +458,7 @@ tfoot {
     display: flex;
     width: 750px;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .picMain5 {
@@ -483,14 +467,16 @@ tfoot {
 }
 
 .main6 {
-    width: 760px;
+    margin: 0 auto;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .mainPic6-1 {
-    width: 760px;
+    margin: 0 auto;
+    width: 70%;
     height: 600px;
     background-image: url(../public/assets/Phone-Mockup.jpg);
     background-size: cover;
@@ -498,7 +484,8 @@ tfoot {
 }
 
 .mainPic6-2 {
-    width: 800px;
+    margin: 0 auto;
+    width: 70%;
     height: 600px;
     background-image: url(../public/assets/Hands-Holding-Landscape-Smartphone-Free-Mockup.jpg);
     background-size: cover;
@@ -526,8 +513,8 @@ tfoot {
 
 .main7Gif {
     height: 500px;
-    width: 700px;
-    margin: 20px;
+    margin: 0 auto;
+    width: 70%;
     background-image: url(../public/assets/Arcade\ gif.gif);
     background-position: center center;
     background-size: cover;
@@ -537,8 +524,8 @@ tfoot {
 /*---------------------------------FOOTER-------------------------------------------*/
 
 .footer {
-    margin: 0% auto;
-    width: 760px;
+    margin: 0 auto;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -554,13 +541,14 @@ tfoot {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 700px;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .foot2-1 {
     display: flex;
     flex-direction: column;
-    align-items: normal;
+    align-items: center;
 }
 
 .foot2-1-1 {
@@ -582,13 +570,15 @@ tfoot {
 
 }
 
-/*-----------------------------MEDIAS QUERYS-------------------------------------------*/
+/*-----------------------------MEDIAS QUERYS-------------------------------------------
 
 @media screen and (min-width:1024px) {
 
-    body{
-        max-width: 100%;
+    .contenedorPrincipal{
+        width: 80%;
+        max-width: 1200px;
     }
+    
 
     .section1 {
         margin: 0% auto;
@@ -665,7 +655,7 @@ tfoot {
     }
 
     .imgMain4 {
-        width: 400px;
+        width: 600px;
         height: 300px;
 
     }
@@ -774,4 +764,4 @@ tfoot {
     
     
 
-}
+} */
