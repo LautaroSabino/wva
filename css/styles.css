@@ -9,8 +9,7 @@
     list-style: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 768px;
-    margin: 0% auto;
+    margin: auto 0%;
 }
 
 body {
@@ -30,25 +29,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .flexColumnStart {
-    width: 700px;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 10px;
-    margin-left: 0%;
+
 
 }
 
 .padding {
     padding: 30px;
-}
-
-.margin {
-    margin: 10px;
 }
 
 
@@ -72,8 +67,7 @@ body {
 }
 
 .imageHeader {
-    margin: 0% auto;
-    max-width: 768px;
+    width: 98vw;
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
@@ -112,8 +106,40 @@ body {
 
 /*---------------PARTE 1 -------------------*/
 
+.section1 {
+    margin: 0% auto;
+}
+
+.grillaMain1 {
+    display: grid;
+    grid-template-areas: "fila1"
+        "fila2"
+        "fila3"
+        "fila4";
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr ;
+    column-gap: 15px;
+    row-gap: 15px;
+
+}
+
+.divG1 {
+    grid-area: fila1;
+}
+
+.divG2 {
+    grid-area: fila2;
+}
+
+.divG3 {
+    grid-area: fila3;
+}
+
+.divG4 {
+    grid-area: fila4;
+}
+
 .div1 {
-    height: 500px;
     margin: 10px;
     padding: 20px;
     background-image: url(../public/assets/DA-back.png);
@@ -135,8 +161,6 @@ body {
 }
 
 .div2 {
-    height: 500px;
-    width: 700px;
     margin: 10px;
     background-image: url(../public/assets/DF-back-2.png);
     background-position: center center;
@@ -152,8 +176,6 @@ body {
 }
 
 .div3 {
-    height: 500px;
-    width: 700px;
     margin: 20px;
     padding: 20px;
     background-image: url(../public/assets/kal-visuals-DqmXihYx5UE-unsplash.jpg);
@@ -171,10 +193,7 @@ body {
     margin: 0% auto;
 }
 
-
 .div4 {
-    height: 500px;
-    width: 700px;
     margin: 20px;
     background-image: url(../public/assets/sgo.a_Stormtrooper_and_darth_vader_gopro_selfie_thick_volumetri_1a4d352b-6066-41e2-813e-da9d9cb3de2d.png);
     background-position: center center;
@@ -553,78 +572,81 @@ tfoot {
 /*-----------------------------MEDIAS QUERYS-------------------------------------------*/
 
 @media screen and (min-width:1024px) {
-    
-* {
-    max-width: 1200px;
-    margin: 0% auto;
-}
-
-    
-    .imageHeader {
-        max-width: 1200px;
-    }
 
     .title {
         width: 1200px;
         height: 200px;
     }
 
-    .section1{
-        width: 1200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    .grillaMain1 {
+        display: grid;
+        grid-template-areas: "fila1 fila2"
+            "fila3 fila4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 4fr ;
+        column-gap: 15px;
+        row-gap: 15px;
+        margin: 0px auto;    
+    }
+    
+    .divG1 {
+        grid-area: fila1;
+    }
+    
+    .divG2 {
+        grid-area: fila2;
+    }
+    
+    .divG3 {
+        grid-area: fila3;
+    }
+    
+    .divG4 {
+        grid-area: fila4;
     }
 
     .div1 {
         width: 500px;
         height: 500px;
     }
-    
+
     .imgMain1 {
         width: 450px;
         height: 420px;
     }
-    
-    .titleDiv {
-        width: 220px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
+
     .div2 {
         height: 500px;
         width: 500px;
         margin: 10px;
     }
-    
+
     .imgMain2 {
         width: 400px;
         height: 300px;
     }
-    
+
     .div3 {
         height: 500px;
         width: 500px;
+        margin-left: 60px;
     }
-    
+
     .imgMain3 {
         width: 400px;
         height: 500px;
     }
-    
-    
+
+
     .div4 {
         height: 500px;
         width: 500px;
     }
-    
+
     .imgMain4 {
         width: 400px;
         height: 300px;
 
     }
-    
+
 }
