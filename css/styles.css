@@ -83,6 +83,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #000000;
+}
+
+.efect {
+    text-shadow: -1px -1px 0 rgb(255, 255, 255);
 }
 
 .imgTitle {
@@ -157,12 +162,12 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .imgMain2 {
     width: 40vw;
-    height: 40vh;
+    height: 20vh;
 }
 
 .div3 {
@@ -189,12 +194,12 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .imgMain4 {
     width: 40vw;
-    height: 40vh;
+    height: 20vh;
 }
 
 
