@@ -16,10 +16,9 @@ body {
     color: aliceblue;
 }
 
-.contenedorPrincipal {
-    width: 90%;
+.contenedor {
+    width: 100%;
     max-width: 1200px;
-    min-width: 400px;
     margin: 0 auto;
 }
 
@@ -61,12 +60,11 @@ body {
     background-image: url(../public/assets/Gid\ header\ 500.gif);
     background-size: cover;
     background-position: 10px;
-    width: 100%;
 }
 
 .flexHeader {
-    height: 340px;
-    font-size: xx-large;
+    height: 60vh;
+    font-size: 30px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -76,23 +74,15 @@ body {
 
 
 .title {
-    margin: 0 auto;
-    width: 90%;
-    margin: 0% auto;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #000000;
-}
-
-.efect {
-    text-shadow: -1px -1px 0 rgb(255, 255, 255);
 }
 
 .imgTitle {
     height: 180px;
-    width: 310px;
+    width: 300px;
     padding: 30px;
     margin: 20px;
 }
@@ -108,10 +98,9 @@ body {
         "fila2"
         "fila3"
         "fila4";
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     column-gap: 15px;
     row-gap: 15px;
-    margin: 0 auto;
 }
 
 .divG1 {
@@ -134,12 +123,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 0 auto;
     margin: 15px;
 }
 
 .div1 {
-    width: 60%;
     height: 400px;
     background-image: url(../public/assets/DA-back.png);
     background-position: center center;
@@ -155,7 +142,6 @@ body {
 }
 
 .div2 {
-    width: 60%;
     height: 400px;
     background-image: url(../public/assets/DF-back-2.png);
     background-position: center center;
@@ -171,7 +157,6 @@ body {
 }
 
 .div3 {
-    width: 60%;
     height: 400px;
     background-image: url(../public/assets/kal-visuals-DqmXihYx5UE-unsplash.jpg);
     background-position: center center;
@@ -187,7 +172,6 @@ body {
 }
 
 .div4 {
-    width: 60%;
     height: 400px;
     background-image: url(../public/assets/sgo.a_Stormtrooper_and_darth_vader_gopro_selfie_thick_volumetri_1a4d352b-6066-41e2-813e-da9d9cb3de2d.png);
     background-position: center center;
@@ -207,8 +191,6 @@ body {
 
 
 .mainSection2-1 {
-    margin: 0 auto;
-    width: 80%;
     height: 500px;
     background-image: url(../public/assets/SFX-Back.png);
     background-position: center center;
@@ -577,9 +559,9 @@ tfoot {
 
 }
 
-/*-----------------------------MEDIAS QUERYS-------------------------------------------*/
+/*-----------------------------MEDIAS QUERYS-------------------------------------------
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:764px) {
 
 
     .grillaMain1 {
@@ -587,24 +569,24 @@ tfoot {
         grid-template-areas: "fila1 fila2"
             "fila3 fila4";
         grid-template-columns: 50% 50%;
-        grid-template-rows: 4fr ;
+        grid-template-rows: 4fr;
         column-gap: 30px;
         row-gap: 50px;
-        margin: 0px auto;    
+        margin: 0px auto;
     }
-    
+
     .divG1 {
         grid-area: fila1;
     }
-    
+
     .divG2 {
         grid-area: fila2;
     }
-    
+
     .divG3 {
         grid-area: fila3;
     }
-    
+
     .divG4 {
         grid-area: fila4;
     }
@@ -651,32 +633,34 @@ tfoot {
         height: 300px;
 
     }
-    
+
     .monazo {
         width: 900px;
         height: 650px;
         margin: 10px;
     }
-    
+
     .gameSticker {
         width: 300px;
         height: 350px;
         margin-right: 40px;
     }
-    
+
 
     .picMain5 {
         height: 230px;
     }
-    
+
     .main6 {
         width: 1200px;
     }
-    
+
 
     .main7Gif {
         width: 100%;
         height: 700px;
     }
 
-} 
+}
+
+*/
