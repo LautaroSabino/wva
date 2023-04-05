@@ -103,7 +103,7 @@ body {
         "fila3"
         "fila4";
     grid-template-columns: 100%;
-    column-gap: 15px;
+    column-gap: 20px;
     row-gap: 15px;
 }
 
@@ -131,10 +131,12 @@ body {
 }
 
 .iconos{
-    display: inline;
+    display: inline-flex;
+    flex-wrap: wrap;
     border: 1px outset white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .div1 {
@@ -150,11 +152,6 @@ body {
     align-items: center;
 }
 
-.imgMain1 {
-    width: 40vw;
-    height: 40vh;
-}
-
 .div2 {
     height: 50%;
     min-height: 400px;
@@ -166,11 +163,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-}
-
-.imgMain2 {
-    width: 40vw;
-    height: 40vh;
 }
 
 .div3 {
@@ -186,11 +178,6 @@ body {
     align-items: center;
 }
 
-.imgMain3 {
-    width: 40vw;
-    height: 40vh;
-}
-
 .div4 {
     height: 50%;
     min-height: 400px;
@@ -204,11 +191,10 @@ body {
     align-items: end;
 }
 
-.imgMain4 {
+.imgMain {
     width: 40vw;
     height: 40vh;
 }
-
 
 /*---------------PARTE 2 -------------------*/
 
@@ -253,7 +239,6 @@ body {
     font-size: 2rem;
     color: rgb(177, 4, 4);
     margin-bottom: 100px;
-
 }
 
 /*---------------PARTE 3 -------------------*/
@@ -660,6 +645,55 @@ tfoot {
 
 @media screen and (max-width:764px) {
     
+    .flexHeader {
+        font-size: 20px;
+        height: 340px;
+    }
     
+    .titleDiv {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    
+    .imgMain {
+    width: 60vw;
+    height: 60vh;
+    }
+
+    .mainSection2-2 {
+        width: 100%;
+        height: 50vh;
+        padding-right: 45px;
+    }
+
+    
+.mainSection2-2 p {
+    font-size: 2rem;
+    margin-left: 20px;
+    color: rgb(210, 217, 224);
+}
+
+    .titleMain2-2 {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .article1 {
+        font-size: 40px;
+        height: 200px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    .article2 {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        padding-top: 10px
+    }
+
 
 }
