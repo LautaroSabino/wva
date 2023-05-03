@@ -30,6 +30,12 @@ body {
     justify-content: space-evenly;
 }
 
+.flexIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .flexColumn {
     display: flex;
     flex-direction: column;
@@ -50,6 +56,11 @@ body {
 
 /*------------------------HEADER............................................*/
 
+.navi li{
+    margin: 20px;
+    width: 120px;
+}
+
 .logo {
     width: 20vh;
     height: 5vh;
@@ -61,7 +72,7 @@ body {
     background-size: cover;
     background-position: 10px;
     width: 100%;
-    height: 400px;
+    height: 460px;
 }
 
 .flexHeader {
@@ -70,6 +81,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: end;
+    position: sticky;
 }
 
 /*------------------TITLE..................*/
@@ -79,6 +91,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 /*------------------------------MAIN ---------------------------------------------*/
@@ -539,6 +552,12 @@ tfoot {
         justify-content: space-evenly;
     }
 
+    .navi li{
+        margin: 20px;
+
+    }
+    
+
     .imgTitle {
         width: 100%;
         height: 130px;
@@ -597,7 +616,7 @@ tfoot {
 
     .flexHeader {
         font-size: 20px;
-        height: 340px;
+        height: 330px;
     }
 
     .titleDiv {
