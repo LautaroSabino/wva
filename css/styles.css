@@ -68,7 +68,7 @@ body {
 }
 
 .imageHeader {
-    background-image: url(../public/assets/Gid\ header\ 500.gif);
+    background-image: url(../public/assets/Gif\ header\ comprimido.gif);
     background-size: cover;
     background-position: 10px;
     width: 100%;
@@ -485,7 +485,7 @@ tfoot {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(../public/assets/Arcade\ gif.gif);
+    background-image: url(../public/assets/Gif\ arcade\ comprimido.gif);
     background-position: center center;
     background-size: cover;
 }
